@@ -1,0 +1,143 @@
+.product-item {
+  margin: 1rem 0;
+  /* width: 20rem; */
+  /* width: 100%; */
+  width: 60%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.product-item__content {
+  padding: 0;
+}
+
+.product-item__info {
+  width: 100%;
+  height: 12.5rem;
+  /* margin-right: 1.5rem; */
+}
+
+.product-item__image {
+  position: relative; /* Check if it need to be deleted*/
+}
+.product-item__image-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+  /* transition: transform .2s; */
+  /* padding:5px; */
+  /* background-color: black; */
+}
+
+/* .product-item__image-image:hover{ */
+/* transform: scale(1.2); */
+/* filter: grayscale(100%); */
+/* } */
+
+.product-item__info h2,
+.product-item__info h3,
+.product-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .product-item {
+    width: 19rem;
+    /* width: 13rem; */
+  }
+  .product-item__image {
+    height: 20rem;
+  }
+}
+
+.rating-area__form {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.rating-area__form > .form-control {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+}
+
+.rating-area__form > button {
+  width: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.drop-area__form {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+  gap: 1rem;
+}
+
+.drop-area__form > .form-control {
+  display: flex;
+  flex: 1;
+}
+
+.drop-area__form > button {
+  width: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.product-item__info > .temp-margin {
+  height: 4rem;
+}
+
+.product-item__info > button {
+  margin: 1rem 0;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.product-item__info > a > h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.game-size-card {
+  width: 41rem;
+}
+
+.temp-margin {
+  overflow: auto;
+}
+
+.temp-margin::-webkit-scrollbar {
+  width: 0; /* Set the width of the scrollbar to 0 */
+  background: transparent; /* Set the background of the scrollbar to transparent */
+}
+
+/* .temp-margin:hover::-webkit-scrollbar{
+  width: 10px;
+  background: white; 
+} */
+
+.product-item__info-reason {
+  text-wrap: pretty;
+}

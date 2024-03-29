@@ -1,0 +1,42 @@
+/* .type-navigation{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0.5 auto;
+    background: #ff0055;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+    padding: 0 1rem;
+    bottom: 0;
+    z-index: 5;
+} */
+.type-navigation{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+    margin: 0.5 auto;
+    bottom: 0;
+    z-index: 5;
+}
+
+.type-navigation > Button{
+    margin: 0 0.5rem;
+}
+
+.type-navigation__buttons{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+    background: #ff0055;
+    padding: 0 1rem;
+    align-items: end;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
