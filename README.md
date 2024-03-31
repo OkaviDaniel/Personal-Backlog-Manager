@@ -56,6 +56,21 @@ REACT_APP_BACKEND_URL=<String of the url of the Backend>
 }
 ```
 
+Now, create a local DB in MongoDB shell and paste the local server url to the backend nodemon.json.
+
+In that DB you have to create the next collections:
+* backlog
+* completed
+* current
+* dropped
+* products
+
+Now run the next code in both Frontend and Backend:
+``npm i``.
+
+To run the progtam run the next code in both Frontend and Backend:
+``npm start``.
+
 ## Images
 The main page is the **completed games**:
 ![completed-games](https://github.com/OkaviDaniel/Personal-Backlog-Manager/blob/main/images/completed-games.png)
