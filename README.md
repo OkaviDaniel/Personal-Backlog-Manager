@@ -55,3 +55,16 @@ REACT_APP_BACKEND_URL=<String of the url of the Backend>
     }
 }
 ```
+
+## Images
+The main page is the **completed games**:
+![completed-games](https://github.com/OkaviDaniel/Personal-Backlog-Manager/blob/main/images/completed-games.png)
+
+The **games** I'm **currently** playing:
+![current-games](https://github.com/OkaviDaniel/Personal-Backlog-Manager/blob/main/images/current-games.png)
+
+Example of my **movies backlog**:
+![backlog-movies](https://github.com/OkaviDaniel/Personal-Backlog-Manager/blob/main/images/backlog-movies.png)
+
+Searching for a product by name and then adding it to a list:
+![add-product](https://github.com/OkaviDaniel/Personal-Backlog-Manager/blob/main/images/add-product.png)
