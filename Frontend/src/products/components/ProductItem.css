@@ -141,3 +141,16 @@
 .product-item__info-reason {
   text-wrap: pretty;
 }
+
+.red-border{
+  border-style: solid;
+  border-color: red;
+}
+.orange-border{
+  border-style: solid;
+  border-color: orange;
+}
+.green-border{
+  border-style: solid;
+  border-color: green;
+}

@@ -4,10 +4,21 @@ import BlurredBackground from "./BlurredBackground";
 import "./ProductItem.css";
 
 const ProductItem = (props) => {
+  let ratingColor;
+  if(props.rating >= 0 && props.rating <= 4)
+  {
+    ratingColor = "red-border";
+  }else if(props.rating >= 5 && props.rating <= 7){
+    ratingColor = "orange-border";
+  }else{
+    ratingColor = "green-border";
+  }
+
   return (
     <React.Fragment>
       <li className="product-item">
-        <Card className="product-item__content">
+        {/* <Card className="product-item__content"> */}
+        <Card className={`product-item__content ${ratingColor}`}>
           <div className="product-item__image">
             <img
               className="product-item__image-image"
