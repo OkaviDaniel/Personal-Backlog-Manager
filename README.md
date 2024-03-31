@@ -9,7 +9,7 @@ Personal Backlog Manager let you manage your library using 4 groups:
 * **Backlog** - List of products that you want to play or watch
 * **Dropped** - List of products that you started but stopped in the middle
 
-In the Wiki page you can read more about each group.
+In the Wiki page you can read more about each group. (Upcoming)
 
 To add products to a list you first need to go to ADD PRODUCT page, and then you have 2 options:
 1. Add product by ID, in this case you **don't need** to press "search product"
