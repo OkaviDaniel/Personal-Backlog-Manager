@@ -68,7 +68,7 @@ In that DB you have to create the next collections:
 Now run the next code in both Frontend and Backend:
 ``npm i``.
 
-To run the progtam run the next code in both Frontend and Backend:
+To run the program execute the next code in both Frontend and Backend:
 ``npm start``.
 
 ## Images
